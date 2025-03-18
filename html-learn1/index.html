@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HTML Öğreniyorum</title>
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+</head>
+
+<body>
+  <!--
+    HTML'ye Giriş 
+    
+    HTML, web sayfaları oluşturmak için kullanılan standart işaretleme dilidir.
+    -->
+
+  <!--
+    HTML Başlıkları
+    
+    HTML başlıkları, bir web sayfasının gördüğünüz başlıklar veya alt başlıklardır.
+    -->
+
+  <h1>Başlık 1</h1>
+  <h2>Başlık 2</h2>
+  <h3>Başlık 3</h3>
+  <h4>Başlık 4</h4>
+  <h5>Başlık 5</h5>
+  <h6>Başlık 6</h6>
+  <h2 id="#0001">Bölüm 1</h2>
+  <!--
+  Daha Büyük Başlıklar
+
+  Her html başlığının varsayılan bir boyutu vardır. Ancak, css 'style' özelliğini kullanarak herhangi bir başlık için boyutu belirleyebilirsiniz.
+  -->
+
+  <h1 style="font-size: 60px">Ekstra Büyütülmüş Başlık</h1>
+
+  <!--
+  HTML Paragrafları
+
+  <p> etiketi bir paragrafı tanımlar. Bir paragraf her zaman yeni bir satır da başlar ve tarayıcılar bir paragrafın önüne ve arkasına otomatik olarak bir miktar boşluk ekler.
+  -->
+
+  <p>Bu bir paragraf.</p>
+  <p>Bu başka bir paragraf.</p>
+
+  <!--
+  İçerik Ayırmak
+
+  <hr>, bir html sayfasında içeriği ayırmak için kullanılır.
+  -->
+
+  <hr />
+
+  <!--
+  HTML Satır Sonları
+  
+  <br> öğesi bir satır sonu tanımlar.
+  -->
+
+  <p>
+    Bu bir<br />satır sonları ile<br />
+    paragraf.
+  </p>
+
+  <!--
+  HTML <pre> Etiketi
+
+  <pre> etiketi içerisinde yazılan metnin satır sonlarını, boşluklarını korur.
+  -->
+
+  <pre>
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+    
+    Eius cumque voluptatem exercitationem,
+    
+    fugit veniam aspernatur accusamus ducimus cupiditate sequi expedita enim ab et fugiat sapiente?
+  </pre>
+
+  <!--
+  HTML Stilleri
+  
+  style niteliği, bir öğeye renk, yazı tipi, boyut ve daha fazlası gibi stiller eklemek için kullanılır.Söz dizimi aşağıdaki gibidir;
+
+  <tagname style="property:value;">
+  -->
+
+  <p style="background-color: red">Bu arka planı kırmızı bir paragraf.</p>
+
+  <!--
+  Metin Rengi
+
+  CSS color özelliği bir html öğesinin metin rengini tanımlar.
+  -->
+
+  <p style="color: blue">Bu mavi bir paragraf metini.</p>
+
+  <!--
+  Yazı Tipleri
+
+  CSS font-family özelliği, bir html öğesi için kullanılacak yazı tipini tanımlar.
+  -->
+
+  <p style="font-family: Verdana, Geneva, Tahoma, sans-serif">
+    Bu fontu değiştirilmiş bir paragraf metini.
+  </p>
+
+  <!--
+  Metin Boyutu
+
+  CSS font-size özelliği bir html öğesinin metin boyutunu tanımlar.
+  -->
+
+  <p style="font-size: 300%">
+    Bu metin boyutu arttırılmış bir paragraf metini.
+  </p>
+
+  <!--
+  Metin Hizalaması
+
+  CSS text-align özelliği, bir html öğesinin yatay metin hizalamasını tanımlar.
+  -->
+
+  <p style="text-align: center">Bu ortalanmış bir paragraf metini.</p>
+
+  <!--
+  HTML Metin Biçimlendirme
+  
+  HTML, özel bir anlam taşıyan metni tanımlamak için çeşitli öğeler içerir.
+
+  - <b> - Kalın Metin
+  - <strong> - Önemli Metin
+  - <i> - İtalik Metin
+  - <em> - Vurgulanan Metin
+  - <mark> - İşaretli Metin
+  - <small> - Daha Küçük Metin
+  - <del> - Silinen Metin
+  - <ins> - Eklenen Metin
+  - <sub> - Alt Simge Metini
+  - <sup> - Üst Simge Metini
+  -->
+  <pre>
+  <b>Kalın Metin</b><br>
+  <strong>Önemli Metin</strong>
+  <i>İtalik Metin</i>
+  <em>Vurgulanan Metin</em>
+  <mark>İşaretli Metin</mark>
+  <small>Daha Küçük Metin</small>
+  <del>Silinen Metin</del>
+  <ins>Eklenen Metin</ins>
+  <sub>Alt Simge Metini</sub>
+  <sup>Üst Simge Metini</sup>
+</pre>
+
+  <!--
+  HTML Alıntı ve Atıf Öğeleri
+  
+  Bu bölümde <blockquote>, <q>, <abbr>, <address>, <cite> ve <bdo> html öğelerini inceleyeceğiz.
+  -->
+
+  <!--
+  Alıntılar için <blockquote>
+  
+  HTML <blockqoute> etiketi başka bir kaynaktan alıntı yapılan bölümü tanımlar.Tarayıcılar bu etiketleri göstermez.
+  -->
+
+  <blockquote cite="https://www.wikipedia.com">
+    <p>
+      Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae,
+      laboriosam.
+    </p>
+  </blockquote>
+
+  <!--
+  Kısa Alıntılar İçin <q>
+
+  HTML <q> etiketi kısa bir alıntıyı tanımlar.Tarayıcılar bu metinleri tırnak işareti ile belirtir.
+  -->
+
+  <p>
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+    <q>Labore iure similique nam,</q> veniam quaerat maxime!
+  </p>
+
+  <!--
+  Kısaltmalar için <abbr>
+    
+  HTML <abbr> etiketi HTML CSS ATM Mr. gibi kısaltmaları ve akronimi tanımlar.Kısaltmaların etiketlenmesi tarayıcı ve arama motorlarına önemli bilgiler verebilir.
+  -->
+
+  <p>
+    Lorem ipsum dolor, sit amet consectetur adipisicing<abbr>ELT</abbr>.
+    Labore iure similique <abbr>ATM</abbr> veniam quaerat maxime!
+  </p>
+
+  <!--
+  İletişim Bilgileri İçin <address>
+ 
+  HTML <address> etiketi bir belgenin yazarına,sahibine ait bilgileri tanımlar.
+  -->
+
+  <address>
+    Written by
+    <a href="mailto:bulutsoyuturk@gmail.com">Bulut Soyuturk</a>.<br />
+    Visit us at:<br />
+    Example.com<br />
+    Box 564, Disneyland<br />
+    USA
+  </address>
+
+  <!--
+  Eser başlığı için <cite>
+
+  HTML <cite> etiketi yaratıcı bir eserin başlığını tanımlar. İtalic olarak görüntülenir.
+  -->
+
+  <p><cite>The Scream</cite> by Edward Munch. Painted in 1893.</p>
+
+  <!--
+  Çift Yönlü Geçersiz Kılma İçin <bdo>
+  
+  HTML <bdo> etiketi geçerli metin yönünü geçersiz kılmak için kullanılır.BDO, Bi-Directional Override'ın kısaltmasıdır.
+  -->
+
+  <bdo dir="rtl">
+    <p>Sağdan sola.</p>
+  </bdo>
+
+  <!--
+  HTML Yorum Etiketi
+
+  Aslında Şu an okuduğunuz metin bir yorum etiketi.
+  -->
+
+  <!--
+  HTML Bağlantıları
+  
+  Bir bağlantıya tıklayıp başka bir belgeye geçebilirsiniz.Bir bağlantının üzerine fareyi getirdiğiniz de fare küçük bir ele dönüşecektir.
+
+  Söz Dizimi 
+
+  HTML <a> etiketi bir köprü metni tanımlar. Aşağıdaki söz dizimine sahiptir.
+
+  <a href="url">Text</a>
+  -->
+
+  <a href="https://www.google.com">Visit Google</a>
+  <br />
+  <br />
+
+  <!--
+  Hedef Nitelik
+
+  Varsayılan olarak, bağlantılı sayfa geçerli tarayıcı penceresinde görüntülenecektir.Bunu değiştirmek için başka bir hedef belirtmeniz gerekir.
+
+   Öznitelik target, bağlantılı belgenin nerede açılacağını belirtir.
+
+   - _self - varsayılan belgeyi tıklandığı pencere de açar.
+   - _blank - varsayılan belgeyi yeni pencere de açar.
+   - _parent - belgeyi ana çerceve de açar.
+   - _top - belgeyi pencerenin tam gövdesinde açar.
+  -->
+
+  <a href="https://www.google.com" target="_blank">Visit Google</a>
+  <br />
+  <br />
+
+  <!--
+  Bağlantı Olarak Bir Resim Kullanmak
+
+  Bir resmi bağlantı olarak kullanmak için <img> etiketini <a> etiketinin arasına koymanız yeterlidir.
+  -->
+
+  <a href="https://www.google.com">
+    <img src="images/google_logo.png" width="100px" />
+  </a>
+  <br />
+  <br />
+
+  <!--
+  Bağlantı Başlıkları
+
+  Öznitelik title, bir öğe hakkında ek bilgi belirtir.Bunlar fare ile üzerine gelindiğinde bir metin olarak gösterilir.
+  -->
+
+  <a href="https://www.google.com" title="Google'ı ziyaret et.">Visit Google</a>
+  <br />
+  <br />
+
+  <!--
+  HTML Bağlantıları ile Yer İmleri Oluşturmak
+
+  HTML Bağlantıları, okuyucunun bir web sayfasının belirli bölümlerine gitmesini sağlayan yer imleri oluşturmak kullanışlıdır.
+
+  Öncelikle sayfa da gitmek istediğiniz yere id kullanarak bir değer verin.
+
+  <p id="#C1"> Bölüm 1 </p>
+
+  Ben bunu sayfamın en üstüne verdim.
+
+  Daha sonra sayfa da gitmek istediğimiz yer imine bir bağlantı ekleyin.
+  -->
+  <a href="#0001">Bölüm 1'e Gider</a>
+  <br />
+  <br />
+
+  <!--
+  Başka bir sayfada ki yer imine de bağlantı ekleyebilirsiniz.
+  <a href="html_demo.html#0001">Bölüm 1'e Zıpla</a>
+  -->
+
+  <!--
+  HTML Görüntüleri
+
+  Resimler bir web sitesinin olmazsa olmazlarıdır.
+  -->
+
+  <img src="images/web_logo.png" alt="web_logo" width="100px" />
+
+  <!--
+  HTML Arka Plan Görüntüleri
+
+  Bir html etiketinde arka plan ekleyebilmek için html style niteliğini ve css background-image özelliğini kullanın:
+  -->
+
+  <p style="background-image: url('images/manzara.jpg'); font-size: 100px">
+    Manzara
+  </p>
+  <br />
+  <br />
+
+  <!--
+  Arka Planı tamamıyla kaplamasını istiyorsanız background-size: cover; css özelliğini kullanın ayrıca emin olmak için background-attachment: fixed; olarak ayarlayın:
+
+  Bu şekilde sayfa arka planını da kullanabilirsiniz tek yapmanız gereken bu nitelikleri body etiketinin içine yazmak.
+  -->
+
+  <p style="
+        background-image: url('images/manzara.jpg');
+        font-size: 100px;
+        background-size: cover;
+        background-attachment: fixed;
+      ">
+    Manzara
+  </p>
+  <br />
+  <br />
+
+  <!--
+  HTML'de Fav İcon
+
+  Favicon tarayıcı sekmesinde sayfa başlığının yanında gözüken küçük bir resimdir.
+
+  İstediğiniz her hangi bir resmi favicon olarak kullanabilirsiniz. Ayrıca https://favicon.cc gibi siteler de kendi faviconunuzu da yapabilirsiniz.
+
+  NOT: Favicon kucuk bir resimdir bu yüzden yüksek kontrast oranına sahip resimler kullanmanız daha iyi olacaktır. Faviconun genel dosya adı favicon.ico 'dur.
+
+  <title> etiketinin hemen ardına şu şekilde ekleyin
+
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+
+  Favicon dosya formatı bütün tarayıcılar için .ico .png .gif .jpeg .svg dosyalarıdır.
+  -->
+
+  <!--
+  HTML Sayfa Başlığı
+
+  Her web sayfasının, sayfanın anlamını açıklayan bir sayfa başlığı olmalıdır.
+
+  Sayfa başlığı <head> etiketinin arasında ki <title> etiketine yazılır.
+
+  <title>HTML Öğreniyorum</title>
+  -->
+
+  <!--
+  HTML Tabloları
+
+  Html tabloları web geliştiricilerinin verileri satırlara ve sütunlara düzenlemesine olanak tanır.
+
+  Bir tablo, satırlar sütunlar ve içinde ki tablo hücrelerinden oluşur.
+
+  Tablo Hücreleri
+
+  Her tablo hücresi bir <td> etiketi ile yazılır ve </td> etiketi ile kapanır.
+
+  td tablo verilerini ifade eder.
+
+  Bir tablo her türlü html öğesini içerebilir: metin, resim, liste, bağlantı, diğer tablolar vb.
+
+  Tablo Satırları
+
+  Her tablo satırı bir <tr> ile başlar ve </tr> ile biter.
+
+  tr tablo satırını ifade eder.
+
+  Bir tablo da istediğiniz kadar satır olabilir sadece hücre sayısıyla aynı olduğundan emin olun.
+
+  Tablo BAşlıkları
+
+  Tablonuz için başlıklar <th> etiketi ile ifade edilir. Tek yapmanız gereken <td> yerine <th> kullanmak.
+  -->
+  <table>
+    <tr>
+      <th>Kişi 1</th>
+      <th>Kişi 2</th>
+      <th>Kişi 3</th>
+    </tr>
+    <tr>
+      <td>Mert</td>
+      <td>Bulut</td>
+      <td>Gökhan</td>
+    </tr>
+    <tr>
+      <td>18</td>
+      <td>19</td>
+      <td>20</td>
+    </tr>
+  </table>
+  <br />
+  <br />
+  <!--
+     HTML Tablo Kenarlıkları
+
+  Kenarlık eklemek için css border özelliğini kullanıyoruz.
+
+  border: 1px solid black;
+  -->
+  <table style="border: 1px solid black">
+    <tr>
+      <th style="border: 1px solid black">Kişi 1</th>
+      <th style="border: 1px solid black">Kişi 2</th>
+      <th style="border: 1px solid black">Kişi 3</th>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black">Mert</td>
+      <td style="border: 1px solid black">Bulut</td>
+      <td style="border: 1px solid black">Gökhan</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black">18</td>
+      <td style="border: 1px solid black">19</td>
+      <td style="border: 1px solid black">20</td>
+    </tr>
+  </table>
+  <br />
+  <br />
+
+  <!--
+  Daraltılmış Tablo Kenarlıkları
+
+  Yukarıda ki gibi çift tablo kenarlıkları görmek istemiyorsanız border-collapse: collapse; css özelliğini ekleyin.
+  -->
+
+  <table style="border: 1px solid black; border-collapse: collapse">
+    <tr>
+      <th style="border: 1px solid black">Kişi 1</th>
+      <th style="border: 1px solid black">Kişi 2</th>
+      <th style="border: 1px solid black">Kişi 3</th>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black">Mert</td>
+      <td style="border: 1px solid black">Bulut</td>
+      <td style="border: 1px solid black">Gökhan</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black">18</td>
+      <td style="border: 1px solid black">19</td>
+      <td style="border: 1px solid black">20</td>
+    </tr>
+  </table>
+  <br />
+  <br />
+
+  <!--
+  Stil Tablo KEnarlıkları
+
+  Her hücrenin arka plan rengini ayarlarsanız ve kenarlığı beyaz yaparsanız görünmez bir kenarlık elde edersiniz.
+  -->
+
+  <table style="border: 1px solid white; border-collapse: collapse">
+    <tr>
+      <th style="background-color: #96d4d4">Kişi 1</th>
+      <th style="background-color: #96d4d4">Kişi 2</th>
+      <th style="background-color: #96d4d4">Kişi 3</th>
+    </tr>
+    <tr>
+      <td style="background-color: #96d4d4">Mert</td>
+      <td style="background-color: #96d4d4">Bulut</td>
+      <td style="background-color: #96d4d4">Gökhan</td>
+    </tr>
+    <tr>
+      <td style="background-color: #96d4d4">18</td>
+      <td style="background-color: #96d4d4">19</td>
+      <td style="background-color: #96d4d4">20</td>
+    </tr>
+  </table>
+  <br />
+  <br />
+
+  <!--
+  Yuvarlak Köşeli Tablo Kenarlıkları
+
+  Css border-radius özelliği ile yuvarlatılmış köşelere sahip olabilirsiniz.
+  -->
+  <table style="border: 1px solid black; border-radius: 10px">
+    <tr>
+      <th style="border: 1px solid black; border-radius: 10px">Kişi 1</th>
+      <th style="border: 1px solid black; border-radius: 10px">Kişi 2</th>
+      <th style="border: 1px solid black; border-radius: 10px">Kişi 3</th>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; border-radius: 10px">Mert</td>
+      <td style="border: 1px solid black; border-radius: 10px">Bulut</td>
+      <td style="border: 1px solid black; border-radius: 10px">Gökhan</td>
+    </tr>
+    <tr>
+      <td style="border: 1px solid black; border-radius: 10px">18</td>
+      <td style="border: 1px solid black; border-radius: 10px">19</td>
+      <td style="border: 1px solid black; border-radius: 10px">20</td>
+    </tr>
+  </table>
+  <br />
+  <br />
+  <!--
+  Noktalı Tablo Kenarlıkları
+
+  border-style css özelliği ile kenarlığın görünümünü ayarlayabilirsiniz.
+
+  Şu değerlere izin verilir;
+  - dotted
+  - dashed
+  - solid
+  - double
+  - groove
+  - ridge
+  - inset
+  - outset
+  - none
+  - hidden
+  -->
+
+  <table>
+    <tr>
+      <th style="border-style: dotted">Kişi 1</th>
+      <th style="border-style: dotted">Kişi 2</th>
+      <th style="border-style: dotted">Kişi 3</th>
+    </tr>
+    <tr>
+      <td style="border-style: dotted">Mert</td>
+      <td style="border-style: dotted">Bulut</td>
+      <td style="border-style: dotted">Gökhan</td>
+    </tr>
+    <tr>
+      <td style="border-style: dotted">18</td>
+      <td style="border-style: dotted">19</td>
+      <td style="border-style: dotted">20</td>
+    </tr>
+  </table>
+  <br />
+  <br />
+
+  <!--
+   Sınır Rengi
+
+   Bu border-color özellik ile kenarlığın rengini ayarlaya bilirsiniz.
+   -->
+  <table style="border-color: #96d4d4;">
+    <tr>
+      <th style="border-color: #96d4d4;">Kişi 1</th>
+      <th style="border-color: #96d4d4;">Kişi 2</th>
+      <th style="border-color: #96d4d4;">Kişi 3</th>
+    </tr>
+    <tr>
+      <td style="border-color: #96d4d4;">Mert</td>
+      <td style="border-color: #96d4d4;">Bulut</td>
+      <td style="border-color: #96d4d4;">Gökhan</td>
+    </tr>
+    <tr>
+      <td style="border-color: #96d4d4;">18</td>
+      <td style="border-color: #96d4d4;">19</td>
+      <td style="border-color: #96d4d4;">20</td>
+    </tr>
+  </table>
+  <br />
+  <br />
+  
+  <!--
+  HTML Tablo Boyutları
+
+  HTML tabloları her sütun, satır veya tablonun tamamı için farklı boyutlara sahip olabilir.
+
+  Bir tablonun, satırın veya sütunun boyutunu belirlemek için width veya height özelliğini kullanın.
+  -->
+  <table style="width:100%">
+    <tr>
+      <th>İsim</th>
+      <th>Soyisim</th>
+      <th>Yaş</th>
+    </tr>
+    <tr>
+      <td>Bulut</td>
+      <td>Soyuturk</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>Polen</td>
+      <td>Özyılmaz</td>
+      <td>19</td>
+    </tr>
+  </table>
+  <br>
+  <br>
+  <!--
+  HTML Tablo Boyut Genişliği
+
+  Belirli bir sütunun boyutunu ayarlamak için genişlik ve yükseklik özelliklerini bir sütun etiketinin içine ekleyin.
+  -->
+  <table style="width:100%">
+    <tr>
+      <th style="width:70%">İsim</th>
+      <th>Soyisim</th>
+      <th>Yaş</th>
+    </tr>
+    <tr>
+      <td>Bulut</td>
+      <td>Soyuturk</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>Polen</td>
+      <td>Özyılmaz</td>
+      <td>19</td>
+    </tr>
+  </table>
+  <br>
+  <br>
+
+  <!--
+  HTML Tablo Satır Yüksekliği
+
+  Belirli bir satırın yüksekliğini ayarlamak için, tablo satırına height özelliğini ekleyin.
+  -->
+
+  <table style="width:100%">
+    <tr>
+      <th>İsim</th>
+      <th>Soyisim</th>
+      <th>Yaş</th>
+    </tr>
+    <tr style="height:200px">
+      <td>Bulut</td>
+      <td>Soyuturk</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>Polen</td>
+      <td>Özyılmaz</td>
+      <td>19</td>
+    </tr>
+  </table>
+  <br>
+  <br>
+
+  <!--
+  HTML Tablo Başlıkları
+
+HTML tabloları her sütun veya satır için veya birçok sütun/satır için başlıklara sahip olabilir.
+
+Dikey Tablo Başlıkları
+
+İlk sütunu tablo başlığı olarak kullanmak için her satırdaki ilk hücreyi bir <th>öğe olarak tanımlayın:
+  -->
+  <table>
+    <tr>
+      <th>Kişi 1</th>
+      <td>Mert</td>
+      <td>25</td>
+    </tr>
+    <tr>
+      <th>Kişi 2</th>
+      <td>Bulut</td>
+      <td>19</td>
+    </tr>
+    <tr>
+      <th>Kişi 3</th>
+      <td>Ahmet</td>
+      <td>20</td>
+    </tr>
+  </table>
+  <br />
+  <br />
+
+
+
+</body>
+
+</html>
